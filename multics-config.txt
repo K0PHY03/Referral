@@ -1,0 +1,57 @@
+## CLUSTERED CACHE (Compatible with CSP cache)
+##########################################################
+
+CACHE PORT: 8880    # cache listen port(udp)
+CACHE AUTOADD: YES
+
+
+##########################
+
+###############################################
+####            WEB INTERFACE              ####
+###############################################
+HTTP PORT: 2424
+HTTP USER: root
+HTTP PASS: root
+HTTP AUTOREFRESH: 05  
+ALLOW WEBINFO: yes
+
+##############################
+[Dailog 0631]
+##############################
+PORT: 17900
+CAID: 0680
+PROVIDERS: 000000
+newcamd clients
+
+##############################
+[Skynet 4A02]
+##############################
+PORT: 17500
+CAID: 4A02
+PROVIDERS: 000000
+newcamd clients
+
+##############################
+[Astro 09AC]
+##############################
+PORT: 17700
+CAID: 09AC
+PROVIDERS: 000000
+newcamd clients
+
+###########################################################
+## MGCAMD SERVER
+############################################################
+MGCAMD PORT : 18000 # MGCAMD server listen port(default=0:disabled)
+MGCAMD KEY : 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+
+###############################################
+#### Servers NewCamd                       ####    
+###############################################
+C: 85.zapto.org 14785 afdlg afdlg
+C: 85.zapto.org 14785 afsky afsky
+C: 85.zapto.org 14785 afast afast
+################################################################
+CCCAM PORT: 48000
+CCCAM DCW CHECK: YES
